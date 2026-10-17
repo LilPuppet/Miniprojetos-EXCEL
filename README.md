@@ -1,12 +1,12 @@
-# Simulador de Investimentos em Fundos Imobiliários (FIIs)
+## Simulador de Investimentos em Fundos Imobiliários (FIIs)
 
 Planilha educacional em Excel para simular aportes mensais, estimar patrimônio futuro e visualizar uma divisão ilustrativa do aporte entre seis categorias de fundos imobiliários.
 
-## Arquivos
+### Arquivos
 
 - `simulador_fii.xlsx`: planilha com a tela principal (`APP`) e a tabela auxiliar (`Planilha2`).
 
-## O que a ferramenta responde
+### O que a ferramenta responde
 
 Na aba **APP**, preencha as células amarelas/azul-claro (campos editáveis):
 
@@ -24,9 +24,9 @@ Os resultados calculados aparecem em células cinzas, com destaque para:
 - **Cenários:** estimativas para 2, 5, 10, 20 e 30 anos.
 - **Divisão do aporte:** percentual e valor mensal direcionado a cada um dos seis tipos de FII, além de um gráfico de pizza.
 
-## Como os cálculos funcionam
+### Como os cálculos funcionam
 
-### Função VF
+#### Função VF
 
 A fórmula principal usa a função de valor futuro:
 
@@ -52,7 +52,7 @@ Os dividendos mensais estimados são calculados como:
 =patrimonio*rendimento_carteira
 ```
 
-### PROCV e chave composta
+#### PROCV e chave composta
 
 Na aba **Planilha2**, a coluna `CHAVE` concatena o perfil e o tipo de FII, por exemplo:
 
@@ -68,7 +68,7 @@ Na aba `APP`, a fórmula busca a chave correspondente ao perfil selecionado e à
 
 O `PROCV` (nome em português; `VLOOKUP` no arquivo `.xlsx`) procura a chave na primeira coluna do intervalo e retorna o percentual da quarta coluna, exigindo correspondência exata (`FALSE`). O valor mensal de cada categoria é o percentual multiplicado pelo aporte total.
 
-## Intervalos nomeados
+### Intervalos nomeados
 
 O arquivo usa estes nomes para tornar as fórmulas mais legíveis:
 
@@ -82,7 +82,7 @@ O arquivo usa estes nomes para tornar as fórmulas mais legíveis:
 | `rendimento_carteira` | `APP!$D$13` | Taxa mensal hipotética para dividendos |
 | `sugestao_investimento` | `APP!$D$14` | Sugestão calculada como 30% do salário |
 
-## Perfis e percentuais ilustrativos
+### Perfis e percentuais ilustrativos
 
 Os percentuais ficam na aba `Planilha2`. Eles foram mantidos como **exemplos didáticos da planilha de referência**, não como recomendação financeira.
 
@@ -98,6 +98,6 @@ Os percentuais ficam na aba `Planilha2`. Eles foram mantidos como **exemplos did
 
 Os rótulos dos perfis servem apenas para demonstrar a validação de dados e a busca da tabela. Não significam que a alocação seja adequada para qualquer pessoa.
 
-## Aviso
+### Aviso
 
 Este projeto é exclusivamente educacional. Taxas e percentuais são hipóteses ilustrativas, não constituem recomendação de investimento e não garantem resultados futuros. Fundos imobiliários envolvem riscos, oscilações de preço e rendimentos variáveis.
