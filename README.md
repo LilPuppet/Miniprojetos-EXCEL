@@ -98,33 +98,6 @@ Os percentuais ficam na aba `Planilha2`. Eles foram mantidos como **exemplos did
 
 Os rótulos dos perfis servem apenas para demonstrar a validação de dados e a busca da tabela. Não significam que a alocação seja adequada para qualquer pessoa.
 
-## Melhorias incluídas
-
-- Banner e identidade visual na aba principal.
-- Linhas de grade ocultas, larguras ajustadas e cabeçalhos formatados.
-- Células de entrada destacadas e células calculadas em cinza.
-- Validação de dados para escolher o perfil de investidor.
-- Gráfico de pizza para visualizar a distribuição do aporte.
-- Destaque para patrimônio, dividendos e total da distribuição.
-- Comentários em campos importantes para orientar o preenchimento.
-- Configuração para recalcular fórmulas ao abrir no Excel.
-
-## Como usar
-
-1. Abra `simulador_fii.xlsx` no Microsoft Excel ou em um aplicativo compatível.
-2. Na aba `APP`, altere as células destacadas para testar salário, aporte, prazo e taxas.
-3. Selecione um perfil na lista suspensa.
-4. Confira os resultados, os cenários e a divisão do aporte.
-5. Na aba `Planilha2`, consulte a tabela de percentuais e a chave composta usada no `PROCV`.
-
-## Como publicar no GitHub
-
-1. Crie um repositório público com um nome simples, por exemplo `simulador-fii-excel`.
-2. Adicione `simulador_fii.xlsx` e `README.md` à raiz do repositório.
-3. Tire capturas de tela da aba `APP` em pelo menos dois perfis diferentes.
-4. Adicione as imagens ao repositório e inclua-as no README, se desejar.
-5. Confira se o repositório está público e envie o link do repositório, não apenas o link do arquivo.
-
 ## Aviso
 
 Este projeto é exclusivamente educacional. Taxas e percentuais são hipóteses ilustrativas, não constituem recomendação de investimento e não garantem resultados futuros. Fundos imobiliários envolvem riscos, oscilações de preço e rendimentos variáveis.
