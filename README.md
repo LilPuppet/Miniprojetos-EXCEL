@@ -8,7 +8,7 @@ Este repositório reúne projetos práticos desenvolvidos no Excel como atividad
 
 Planilha educacional em Excel para simular aportes mensais, estimar patrimônio futuro e visualizar uma divisão ilustrativa do aporte entre seis categorias de fundos imobiliários.
 
-**Arquivo:** `simulador_fii.xlsx` — contém a tela principal (`APP`) e a tabela auxiliar (`Planilha2`).
+**Arquivo:** `SimuladorFII.xlsx` — contém a tela principal (`APP`) e a tabela auxiliar (`Planilha2`).
 
 ### O que a ferramenta responde
 
