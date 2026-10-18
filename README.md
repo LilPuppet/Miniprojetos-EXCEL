@@ -1,6 +1,6 @@
 # Miniprojetos EXCEL
 
-Este repositório reúne projetos práticos desenvolvidos no Excel como atividades da DIO para organizar informações, automatizar cálculos e apoiar tarefas do dia a dia.
+Este repositório reúne projetos práticos desenvolvidos no Excel e um dashboard com ChatGPT como atividades do bootcamp DIO + Santander- Excel com IA e Claude, para organizar informações, automatizar cálculos e apoiar tarefas do dia a dia.
 
 ## Projetos
 
@@ -149,12 +149,36 @@ O projeto demonstra a aplicação do Excel na construção de dashboards, na con
 
 ---
 
+## 4. Dashboard Interativo de Vendas Porsche
+
+**Arquivo:** `index.html`.
+
+Dashboard interativa desenvolvida em HTML para visualizar e explorar dados de vendas de veículos Porsche. A interface utiliza um tema visual inspirado na marca e apresenta indicadores, gráficos e filtros interativos.
+
+### Funcionalidades
+
+- **Indicadores de vendas:** resumo dos principais dados da base.
+- **Gráficos dinâmicos:** visualização das informações para facilitar a análise.
+- **Filtros dependentes:** seleção de estado, cidade, ano e forma de pagamento, com atualização das opções conforme os filtros anteriores.
+- **Interface interativa:** exploração dos registros diretamente no navegador.
+- **Acesso online:** publicação por meio do GitHub Pages, sem necessidade de instalar o Excel para visualizar a dashboard.
+
+### Como acessar
+
+Acesse a [dashboard Porsche](https://lilpuppet.github.io/Miniprojetos-EXCEL/) e utilize os filtros e gráficos para explorar os dados disponíveis.
+
+O projeto demonstra a aplicação de tecnologias web na construção de dashboards interativas para análise e apresentação visual de dados.
+
+---
+
 ## Arquivos do repositório
 
 - `SimuladorFII.xlsx` — simulador educacional de investimentos em fundos imobiliários.
 - `ImpostoRenda.xlsx` — planilha de organização relacionada ao Imposto de Renda.
 - `DashboardVendasXBOX.xlsx` — dashboard interativo para análise consolidada de vendas relacionadas ao XBOX.
+- `index.html` — dashboard interativa de vendas Porsche, publicada no site do projeto.
 - `README.md` — documentação dos projetos.
+- `LICENSE` — licença do repositório.
 
 ## Aviso geral
 
