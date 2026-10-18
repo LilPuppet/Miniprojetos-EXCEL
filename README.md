@@ -1,6 +1,6 @@
-# Miniprojetos EXCEL 
+# Miniprojetos EXCEL
 
-Este repositório reúne projetos práticos desenvolvidos no Excel como atividades do DIO para organizar informações, automatizar cálculos e apoiar tarefas do dia a dia.
+Este repositório reúne projetos práticos desenvolvidos no Excel como atividades da DIO para organizar informações, automatizar cálculos e apoiar tarefas do dia a dia.
 
 ## Projetos
 
@@ -123,12 +123,39 @@ Planilha de apoio para organizar dados relacionados à preparação do Imposto d
 
 ---
 
+## 3. Dashboard de Vendas XBOX
+
+**Arquivo:** `DashboardVendasXBOX.xlsx`.
+
+Dashboard desenvolvido no Excel para consolidar e visualizar informações de vendas relacionadas ao XBOX, facilitando a análise dos dados por meio de indicadores, gráficos e filtros interativos.
+
+### Funcionalidades
+
+- **Visão geral:** apresentação consolidada das informações disponíveis na base de vendas.
+- **Filtro por tipo de inscrição:** permite selecionar uma categoria de inscrição para visualizar os dados correspondentes.
+- **Indicadores dinâmicos:** atualização das informações apresentadas de acordo com o filtro selecionado.
+- **Gráficos interativos:** visualização dos dados agregados para facilitar a identificação de padrões e a comparação entre categorias.
+- **Análise consolidada:** possibilidade de retornar à visão geral para considerar todos os registros da base.
+
+### Como utilizar
+
+1. Abra `DashboardVendasXBOX.xlsx` no Excel ou em um aplicativo compatível.
+2. Acesse a aba **Dashboard Final**.
+3. Utilize o filtro **Tipo de inscrição** para selecionar a categoria desejada.
+4. Analise os indicadores e gráficos atualizados conforme a seleção.
+5. Retorne à opção **(Todos)** para visualizar os dados consolidados, quando disponível.
+
+O projeto demonstra a aplicação do Excel na construção de dashboards, na consolidação de dados e na apresentação visual de informações para apoiar análises e tomadas de decisão.
+
+---
+
 ## Arquivos do repositório
 
-- `simulador_fii.xlsx` — simulador educacional de investimentos em fundos imobiliários.
+- `SimuladorFII.xlsx` — simulador educacional de investimentos em fundos imobiliários.
 - `ImpostoRenda.xlsx` — planilha de organização relacionada ao Imposto de Renda.
+- `DashboardVendasXBOX.xlsx` — dashboard interativo para análise consolidada de vendas relacionadas ao XBOX.
 - `README.md` — documentação dos projetos.
 
 ## Aviso geral
 
-Os projetos têm finalidade educacional e informativa. As taxas e alocações do simulador de FIIs são hipóteses ilustrativas, não recomendações de investimento nem garantia de resultados. A planilha de Imposto de Renda não substitui a conferência dos documentos nem as orientações oficiais.
+Os projetos têm finalidade educacional e informativa. As taxas e alocações do simulador de FIIs são hipóteses ilustrativas, não recomendações de investimento nem garantia de resultados. A planilha de Imposto de Renda não substitui a conferência dos documentos nem as orientações oficiais. Os dashboards e demais ferramentas devem ser utilizados considerando a qualidade, a atualização e as limitações dos dados de origem.
